@@ -1,0 +1,38 @@
+body{
+	perspective: 640px;
+	perspective-origin: 50% 100%;
+}
+
+
+
+/* Layout */
+.ba-container {
+	width: 640px;
+	margin: 20px auto;
+	background-image: url(../img/chess-2026115_640.png);
+	height: 640px;
+	padding: 22px;
+	transform: rotateX(30deg) rotate(10deg);
+}
+ul {
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}
+li {
+	height: 12.5%;
+	width: 12.5%;
+	float: left;
+}
+.ba-container__row1 [class*=ba-container__row-] {
+	margin-left: 12.5%;
+}
+.ba-container__row2 [class*=ba-container__row-] {
+	margin-right: 12.5%;
+}
+ul:nth-of-type(4) {
+	margin-top: 25%;
+}
+.clear {
+	clear: both;
+}
